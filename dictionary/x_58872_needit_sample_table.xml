@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="live_feed=true" label="Sample table" max_length="40" name="x_58872_needit_sample_table" sizeclass="1" type="collection">
+        <element label="Class" max_length="255" name="class" type="string_full_utf8"/>
+        <element label="CreateDate" max_length="40" name="createdate" type="glide_date"/>
+        <element label="Name" max_length="255" name="name" type="string_full_utf8"/>
+        <element label="Number" max_length="40" name="number" type="longint"/>
+        <element label="ReferenceFile" max_length="40" name="referencefile" type="file_attachment"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>
