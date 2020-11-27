@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Infinity Inventory" max_length="40" name="x_58872_needit_infinity_inventory" sizeclass="39" type="collection">
+        <element label="Device Number" mandatory="true" max_length="40" name="device_number" type="string"/>
+        <element label="Device Version" max_length="40" name="device_version" type="string"/>
+        <element label="Location" max_length="40" name="location" type="string"/>
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element label="Owner By" max_length="40" name="owner_by" type="string"/>
+        <element display="true" label="Status" max_length="40" name="status" type="string"/>
+        <element label="Support Group" max_length="40" name="support_group" type="string"/>
+    </element>
+</database>
