@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Email Import Data" max_length="40" name="x_58872_needit_email_import_data" sizeclass="0" type="collection">
+        <element label="Attachment" max_length="40" name="file_attachment" type="file_attachment"/>
+        <element label="Subject" max_length="40" name="subject" type="string"/>
+        <element label="Type" max_length="40" name="type" type="string"/>
+    </element>
+</database>
